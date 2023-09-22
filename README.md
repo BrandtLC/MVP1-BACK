@@ -18,6 +18,8 @@ Para instalar as dependencias é necessário rodar o seguinte comando em um term
   pip install -r requirements.txt
 ```
 
+Além disso será necessária alterar no arquivo src/server/instance.py nas linhas 19 e 20 os dados referentes ao usuario e senha local do MySQL.
+
 Para iniciar API basta rodar o aquivo principal do projeto
 ```bash
   python3 -m main.py
